@@ -58,7 +58,6 @@ h1{
 .counter{
     height: 200px;
     transform: translateY(-150px);
-  
 }
 .counter-display{
     text-align: center;
@@ -148,4 +147,52 @@ h1{
     -webkit-transform: rotateX(-90deg);
     -moz-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
+  }
+
+  /*MEDIA PER TABLET*/
+  @media screen and (max-width:950px) {
+    h1{
+      font-size: 40px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',;
+  }
+    .aggiungi{
+      left:53%;
+      margin-top: 50px;
+      margin-bottom: 150px;
+      font-size: 22px;
+  }
+  .sottrai{
+      left:20%;
+      margin-top: 50px;
+      margin-bottom: 150px;
+      font-size: 22px;
+  }
+  .counter-display{
+    text-align: center;
+    width: 22%;
+}
+  }
+
+  /*MEDIA PER MOBILE*/
+  @media screen and (max-width:600px) {
+    h1{
+      font-size: 23px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',;
+  }
+    .aggiungi{
+      left:53%;
+      margin-top: 50px;
+      margin-bottom: 150px;
+      font-size: 22px;
+  }
+  .sottrai{
+      left:-7%;
+      margin-top: 50px;
+      margin-bottom: 150px;
+      font-size: 22px;
+  }
+  .counter-display{
+    text-align: center;
+    width: 42%;
+}
   }
